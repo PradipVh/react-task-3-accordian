@@ -21,7 +21,7 @@ const Task3Main = () => {
 
   return (
     <div className="row m-4">
-      <div className="col-sm-4">
+      <div className="col-12 col-md-4">
         <div className=' border p-4 border-primary'>
           <h1>Add Section</h1>
           <form onSubmit={addSection}>
@@ -39,7 +39,7 @@ const Task3Main = () => {
           </form>
         </div>
         </div>
-      <div className="col-sm-7">
+      <div className="col-12  col-md-7 mt-4 mt-md-0">
         <div>
           {sections.map((item, i) => (
             <div key={i} >
